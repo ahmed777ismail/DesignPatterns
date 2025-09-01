@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class CreditCardPayment extends PaymentProcessor{
 
-public class CreditCardPayment {
+    @Override
+    protected void makePayment() {
+        System.out.println("Processing payment with Credit Card.");
+    }
 }
